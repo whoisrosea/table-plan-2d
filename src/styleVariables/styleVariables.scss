@@ -1,0 +1,11 @@
+$backgroundColor: rgb(0, 0, 0);
+
+@mixin menuEl() {
+  display: flex;
+  border-radius: 30px;
+  background-color: white;
+  padding: 30px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}

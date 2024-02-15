@@ -1,0 +1,32 @@
+@import "../../styleVariables/styleVariables.scss";
+
+.ElementMenu__Item {
+  @include menuEl();
+}
+
+.ElementMenu__Item-params {
+  @include menuEl();
+  h2 {
+    margin-top: 0;
+    margin-bottom: 15px;
+  }
+  flex-direction: column;
+  align-items: flex-start;
+  .ElementMenu__Item-input {
+    .input {
+      margin-right: 30px;
+      width: 90px;
+      height: 25px;
+    }
+    h4 {
+      color: rgba(0, 0, 0, 0.486);
+      margin: 0;
+      margin-bottom: 5px;
+    }
+    display: flex;
+  }
+}
+
+.button {
+  width: 20%;
+}

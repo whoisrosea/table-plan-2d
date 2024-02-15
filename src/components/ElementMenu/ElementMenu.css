@@ -1,0 +1,42 @@
+.ElementMenu__Item {
+  display: flex;
+  border-radius: 30px;
+  background-color: white;
+  padding: 30px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.ElementMenu__Item-params {
+  display: flex;
+  border-radius: 30px;
+  background-color: white;
+  padding: 30px;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 30px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.ElementMenu__Item-params h2 {
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+.ElementMenu__Item-params .ElementMenu__Item-input {
+  display: flex;
+}
+.ElementMenu__Item-params .ElementMenu__Item-input .input {
+  margin-right: 30px;
+  width: 90px;
+  height: 25px;
+}
+.ElementMenu__Item-params .ElementMenu__Item-input h4 {
+  color: rgba(0, 0, 0, 0.486);
+  margin: 0;
+  margin-bottom: 5px;
+}
+
+.button {
+  width: 20%;
+}/*# sourceMappingURL=ElementMenu.css.map */

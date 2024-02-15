@@ -1,0 +1,29 @@
+.DragMenu {
+  background-color: rgb(255, 255, 255);
+
+  border-radius: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+
+.DragMenu__Item-menu {
+  h2 {
+    margin: 0;
+  }
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.DragMenu__Item-menu-grid {
+  width: 15%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  h4 {
+    margin: 0;
+  }
+}
